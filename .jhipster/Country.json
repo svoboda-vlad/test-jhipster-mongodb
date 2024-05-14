@@ -1,0 +1,26 @@
+{
+  "annotations": {
+    "changelogDate": "20240514180733"
+  },
+  "applications": "*",
+  "clientRootFolder": "testJhipsterMongodb",
+  "databaseType": "mongodb",
+  "fields": [
+    {
+      "fieldName": "countryName",
+      "fieldType": "String"
+    }
+  ],
+  "microserviceName": "testJhipsterMongodb",
+  "name": "Country",
+  "relationships": [
+    {
+      "otherEntityName": "region",
+      "relationshipName": "region",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
